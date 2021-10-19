@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     background-color: #F7F9FB;
+    font-family: Roboto
 }
 
 
@@ -7,4 +10,287 @@ header{
     width: 100%;
     height:80px;
     background-color: white;
+}
+
+ul {
+    display: flex;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 95%;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding: 0px 44px;
+    border-right: solid #F4F4F4 1px
+}
+
+header ul {
+    height: 100%;
+    border-right: solid #F4F4F4 1px;
+    padding: 0px 30px
+}
+
+.search-div{
+    display: flex;
+    height:100%;
+    align-items: center;
+    padding-left:33px;
+    padding-right:33px;
+    border-right: solid #F4F4F4 1px;
+}
+
+.search-div input{
+    border:none;
+    outline: none;
+    padding-left:25px
+}
+
+.search-div input::placeholder{
+    color:#CECECE;
+    font-size:16px
+}
+
+header li{
+    width:90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header li img{
+    padding-bottom:12px;
+}
+
+header .avatar-div{
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    padding-right:50px;
+    height:100%;
+    border-right: solid #F4F4F4 1px;
+}
+
+header .avatar-div img {
+    padding-right:15px;
+}
+
+.avatar-text-main-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-text-main-div div:nth-child(1){
+    display: flex;
+}
+
+.avatar-text-main-div div:nth-child(1) p{
+    color:#181818;
+    font-size:12px;
+    font-weight: bold;
+    padding-right:10px;
+}
+
+.avatar-text-main-div div:nth-child(1) small{
+    color:rgba(24, 24, 24, 0.2);
+    font-size:12px;
+    font-weight: bold;
+}
+
+.avatar-text-main-div div:nth-child(2){
+    display: flex;
+    padding-top:11px;
+}
+
+.avatar-text-main-div div:nth-child(2) p{
+    font-size:12px;
+    color:#747474;
+    padding-right:4px;
+}
+
+.avatar-text-main-div div:nth-child(2) small{
+    font-size:12px;
+    color:#02B033
+}
+
+header .other-div{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #F4F4F4 1px;
+}
+
+.main-div{
+    display: flex;
+    padding: 40px 130px;
+}
+
+main{
+    margin-right:40px;
+    width: 70%;
+}
+
+aside{
+    width:30%;
+}
+
+.person-info-main-div{
+    height:360px;
+}
+
+.person-top-div{
+    height:50%;
+    background-image:url(./images/person-background.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.person-bottom-div{
+    height:50%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.person-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    width:90%
+}
+
+.upload-button{
+    background-color: #fff;
+    width:36px;
+    height:36px;
+    border-radius:3px;
+}
+
+.right-buttons{
+    display: flex;
+}
+
+.upload-button{
+    opacity:0.6
+}
+
+.right-buttons{
+    opacity:0.8
+}
+
+.edit-button{
+    background-color:white;
+    border-radius:3px;
+    width:132px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-button img{
+    padding-right:8px;
+}
+
+.edit-button p{
+    font-size:12px;
+}
+
+.horizontal-dots-button{
+    border-radius:3px;
+    margin-left:10px;
+    width:36px;
+    height:36px;
+    background-color:white
+}
+
+.person-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.person-info-container{
+    display: flex;
+    width:90%
+}
+
+.person-avatar-div img{
+    padding-right:25px;
+    margin-top:-30px;
+}
+
+.person-info-top-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top:25px;
+    width: 100%;
+}
+
+.person-info-left{
+    display: flex;
+}
+
+.person-info-left p{
+    color:#181818;
+    font-weight: bold;
+    font-size:18px;
+    padding-right:8px;
+}
+
+.person-info-right{
+    display: flex;
+}
+
+.person-info-right address{
+    padding-left:8px;
+    font-size:12px;
+    color:#181818
+}
+
+.person-description-div{
+    padding-top:15px;
+}
+
+.person-description-div p{
+    color:#181818;
+    font-size:14px;
+    line-height:21px;
+}
+
+.person-buttons-div{
+    padding-top:15px;
+}
+
+.person-buttons-div button:nth-child(1){
+    width:170px;
+    background-color:#0077B5;
+    margin-right:15px;
+    padding: 10px 0px;
+    color:white;
+    font-size:12px;
+    border-radius:5px;
+}
+
+.person-buttons-div button:nth-child(2){
+    width:170px;
+    border: solid 1px #0077B5;
+    margin-right:15px;
+    padding: 10px 0px;
+    color:#0077B5;
+    font-weight: bold;
+    font-size:12px;
+    border-radius:5px;
 }
