@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -33,7 +37,9 @@
             <li>
               <a href="#"><img src="images/message.svg" /></a>
               <a href="#">CHAT</a>
-              <a href="#"><img class="nav-notification" src="images/count.png"></a>
+              <a href="#"
+                ><img class="nav-notification" src="images/count.png"
+              /></a>
             </li>
             <li>
               <a href="#"><img src="images/notices.svg" /></a>
@@ -42,7 +48,7 @@
           </ul>
         </nav>
         <form class="search-div">
-          <img src="images/search.svg" />
+          <a href="#"><img src="images/search.svg" /></a>
           <input type="text" placeholder="Search" />
         </form>
         <div class="avatar-div">
@@ -114,12 +120,8 @@
                   </p>
                 </div>
                 <div class="person-buttons-div">
-                    <button>
-                        CONTACT INFO
-                    </button>
-                    <button>
-                        1,043 CONNECTIONS
-                    </button>
+                  <button>CONTACT INFO</button>
+                  <button>1,043 CONNECTIONS</button>
                 </div>
               </div>
             </div>
@@ -130,19 +132,13 @@
         <section class="person-tabs-box-main-div">
           <div class="person-tabs-main-div">
             <div class="person-tabs-profile-div">
-              <p>
-                Profile
-              </p>
+              <a href="#">Profile</a>
             </div>
             <div class="person-tabs-activity-articles-div">
-              <p>
-                Activity & interests
-              </p>
+              <a href="#">Activity & interests</a>
             </div>
             <div class="person-tabs-activity-articles-div">
-              <p>
-                Articles (3)
-              </p>
+              <a href="#">Articles (3)</a>
             </div>
           </div>
         </section>
@@ -150,14 +146,17 @@
 
         <!-- About -->
         <section class="person-about-main-div">
-         <div class="person-container">
-          <div class="person-about-box-main-div">
-            <span class="person-abou-title">About</span>
-            <p>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites.</p>
-            <button class="show-more">SEE MORE</button>
+          <div class="person-container">
+            <div class="person-about-box-main-div">
+              <span class="person-abou-title">About</span>
+              <p>
+                I'm more experienced in eCommerce web projects and mobile
+                banking apps, but also like to work with creative projects, such
+                as landing pages or unusual corporate websites.
+              </p>
+              <button class="show-more">SEE MORE</button>
+            </div>
           </div>
-         </div>
-
         </section>
         <!-- End About -->
         <!-- Projects -->
@@ -169,201 +168,343 @@
             </div>
             <div class="projects-projects-main-div">
               <div class="projects-projects-div">
-                <a href="#"><img src="images/project-1.jpg"></a>
+                <a href="#"><img src="images/project-1.jpg" /></a>
                 <a href="#"><h4>Zara redesign concept</h4></a>
                 <a href="#"><small>UX/UI design, 15.07.2019</small></a>
               </div>
               <div class="projects-projects-div">
-                <a href="#"><img src="images/project-2.jpg"></a>
+                <a href="#"><img src="images/project-2.jpg" /></a>
                 <a href="#"><h4>SCTHON event brand identity</h4></a>
                 <a href="#"><small>Graphic design, 03.31.2019</small></a>
               </div>
               <div class="projects-projects-div">
-                <a href="#"><img src="images/project-3.jpg"></a>
+                <a href="#"><img src="images/project-3.jpg" /></a>
                 <a href="#"><h4>Drozd. Brand identity. 2016</h4></a>
                 <a href="#"><small>Graphic design, 03.04.2016</small></a>
               </div>
             </div>
-            <button class="show-more">
-              SHOW ALL (12)
-            </button>
+            <button class="show-more">SHOW ALL (12)</button>
           </div>
         </section>
-         <!-- End Projects -->
-         <!-- Skills & Endoresments -->
-         <section class="skills-main-div">
-            <div class="skills-container">
-              <h3>Skills & Endoresments</h3>
-              <div class="skills-retangles-main-div">
-                <div class="skills-retangle">
+        <!-- End Projects -->
+        <!-- Skills & Endoresments -->
+        <section class="skills-main-div">
+          <div class="skills-container">
+            <h3>Skills & Endoresments</h3>
+            <ul class="skills-retangles-main-div">
+              <li class="skills-retangle">
+                <a href="#">
                   <div class="skills-retangle-text-div">
                     <h5>User Experience(UX)</h5>
                     <small>6</small>
                   </div>
-                  <img src="./images/users-1.png">
-                </div>
-                <div class="skills-retangle">
+                  <img src="./images/users-1.png" />
+                </a>
+              </li>
+              <li class="skills-retangle">
+                <a href="#">
                   <div class="skills-retangle-text-div">
                     <h5>User interface (UI)</h5>
                     <small>7</small>
                   </div>
-                  <img src="./images/users-2.png">
-                </div>
-                <div class="skills-retangle">
+                  <img src="./images/users-2.png" />
+                </a>
+              </li>
+              <li class="skills-retangle">
+                <a href="#">
                   <div class="skills-retangle-text-div">
                     <h5>Brand identity</h5>
                     <small>5</small>
                   </div>
-                  <img src="./images/users-3.png">
-                </div>
+                  <img src="./images/users-3.png" />
+                </a>
+              </li>
+            </ul>
+            <button class="show-more">SHOW ALL (17)</button>
+          </div>
+        </section>
+        <!-- End Skills & Endoresments -->
+        <!-- Experience -->
+        <section class="experience-main-div">
+          <div class="experience-container">
+            <h3>Experience</h3>
+            <div class="experience experience-border">
+              <div>
+                <img src="images/globe.png" />
               </div>
-              <button class="show-more">
-                SHOW ALL (17)
-              </button>
-            </div>
-         </section>
-         <!-- End Skills & Endoresments -->
-         <!-- Experience -->
-         <section class="experience-main-div">
-            <div class="experience-container">
-                <h3>Experience</h3>
-                <div class="experience experience-border">
-                  <div>
-                    <img src="images/globe.png">
-                  </div>
-                  <div class="experience-info">
-                    <h5>Freelance UX/UI designer</h5>
-                    <div class="experience-row-2">
-                      <p>Self Employed</p>
-                      <span>Around the world</span>
-                    </div>
-                    <div class="experience-row-3">
-                      <p>Jun 2016 - Present</p>
-                      <span>3 yrs 3 mos</span>
-                    </div>
-                    <p class="experience-description">Work with clients and web studios as freelancer.  Work in next areas: eCommerce web projects; 
-                      creative landing pages; iOs and Android apps; corporate web sites and corporate identity 
-                      sometimes.
-                    </p>
-                  </div>
+              <div class="experience-info">
+                <h5>Freelance UX/UI designer</h5>
+                <div class="experience-row-2">
+                  <p>Self Employed</p>
+                  <span>Around the world</span>
                 </div>
-                <div class="experience experience-2">
-                  <div>
-                    <img src="images/up.png">
-                  </div>
-                  <div class="experience-info">
-                    <h5>UX/UI designer</h5>
-                    <div class="experience-row-2">
-                      <p>Upwork</p>
-                      <span>International</span>
-                    </div>
-                    <div class="experience-row-3">
-                      <p>Jun 2019 — Present</p>
-                      <span>3 mos</span>
-                    </div>
-                    <p class="experience-description">New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction
-                       design, UX research.
-                    </p>
-                  </div>
+                <div class="experience-row-3">
+                  <p>Jun 2016 - Present</p>
+                  <span>3 yrs 3 mos</span>
                 </div>
-            </div>
-         </section>
-         <!-- End Experience -->
-         <!-- Education -->
-         <section class="education-main-div">
-            <div class="education-container">
-              <h3>Education</h3>
-              <div class="education">
-                <div>
-                  <img src="images/moscow.png">
-                </div>
-                <div class="education-info">
-                  <h5>Moscow State Linguistic University</h5>
-                  <div class="education-row-2">
-                    <p>Bachelor's degree Field Of StudyComputer and Information Systems Security/Information Assurance</p>
-                  </div>
-                  <div class="education-row-3">
-                    <p>2013 — 2017</p>
-                  </div>
-                  <p class="education-description">Additional English classes and UX profile courses​.</p>
-                </div>
+                <p class="experience-description">
+                  Work with clients and web studios as freelancer. Work in next
+                  areas: eCommerce web projects; creative landing pages; iOs and
+                  Android apps; corporate web sites and corporate identity
+                  sometimes.
+                </p>
               </div>
             </div>
-         </section>
+            <div class="experience experience-2">
+              <div>
+                <img src="images/up.png" />
+              </div>
+              <div class="experience-info">
+                <h5>UX/UI designer</h5>
+                <div class="experience-row-2">
+                  <p>Upwork</p>
+                  <span>International</span>
+                </div>
+                <div class="experience-row-3">
+                  <p>Jun 2019 — Present</p>
+                  <span>3 mos</span>
+                </div>
+                <p class="experience-description">
+                  New experience with Upwork system. Work in next areas: UX/UI
+                  design, graphic design, interaction design, UX research.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Experience -->
+        <!-- Education -->
+        <section class="education-main-div">
+          <div class="education-container">
+            <h3>Education</h3>
+            <div class="education">
+              <div>
+                <img src="images/moscow.png" />
+              </div>
+              <div class="education-info">
+                <h5>Moscow State Linguistic University</h5>
+                <div class="education-row-2">
+                  <p>
+                    Bachelor's degree Field Of StudyComputer and Information
+                    Systems Security/Information Assurance
+                  </p>
+                </div>
+                <div class="education-row-3">
+                  <p>2013 — 2017</p>
+                </div>
+                <p class="education-description">
+                  Additional English classes and UX profile courses​.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <aside>
         <div class="Sidebar-div">
-      
           <section class="dashboard-main-div">
             <div class="dashboard-container">
               <div class="dashboard-title-div">
-              <h3>your dashbord</h3>
-              <button>go to stats</button>
+                <h3>your dashboard</h3>
+                <button class="dashboard-button">go to stats</button>
               </div>
-             <div class="dashboard-info-div"> 
+              <div class="dashboard-info-div">
                 <span>367</span>
                 <p>views today</p>
               </div>
-              <div class="dashboard-info-div"> 
+              <div class="dashboard-info-div">
                 <span>15</span>
                 <p>posts views</p>
               </div>
-              <div class="dashboard-info-div"> 
+              <div class="dashboard-info-div">
                 <span>9</span>
                 <p>search appereances</p>
               </div>
             </div>
           </section>
           <section class="visitors-main-div">
-           <div class="visitors-container">
-            <div class="dashboard-title-div">
-              <h3>visitors</h3>
-              <button>view all</button>
+            <div class="visitors-container">
+              <div class="dashboard-title-div">
+                <h3>visitors</h3>
+                <button class="visitors-button">view all</button>
               </div>
-              <div class="visitors-list">
-               <div class="visitor-div">
-                 <img src="./images/person-1.png" alt="">
-                 <div class="visitor-info">
-                   <h5>Darlene Black</h5>
-                   <small>HR-manager,10000 connec...</small>
-                 </div>
-               </div>
-               <div class="visitor-div">
-                <img src="./images/person-2.png" alt="">
-                <div class="visitor-info">
-                  <h5>Theresa Steward</h5>
-                  <small>iOS developer</small>
-                </div>
-              </div>
-              <div class="visitor-div">
-                <img src="./images/person-3.png" alt="">
-                <div class="visitor-info">
-                  <h5>Brandon Wilson</h5>
-                  <small>Senior UX designer</small>
-                </div>
-              </div>
-              <div class="visitor-div">
-                <img src="./images/person-4.png" alt="">
-                <div class="visitor-info">
-                  <h5>Kyle Fisher</h5>
-                  <small>Product designer at Com...</small>
-                </div>
-              </div>
-              <div class="visitor-div">
-                <img src="./images/person-5.png" alt="">
-                <div class="visitor-info">
-                  <h5>Audrey Alexander</h5>
-                  <small>Team lead at Google</small>
-                </div>
-              </div>
-              </div>
-           </div>
+              <ul class="visitors-list">
+                <li class="visitor-div">
+                  <a href="#"><img src="./images/person-1.png" alt="" /></a>
+                  <div class="visitor-info">
+                    <a href="#"><h5>Darlene Black</h5></a>
+                    <a href="#"><small>HR-manager, 10 000 connec...</small></a>
+                  </div>
+                </li>
+                <li class="visitor-div">
+                  <a href="#"><img src="./images/person-2.png" alt="" /></a>
+                  <div class="visitor-info">
+                    <a href="#"><h5>Theresa Steward</h5></a>
+                    <a href="#"><small>iOS developer</small></a>
+                  </div>
+                </li>
+                <li class="visitor-div">
+                  <a href="#"><img src="./images/person-3.png" alt="" /></a>
+                  <div class="visitor-info">
+                    <a href="#"><h5>Brandon Wilson</h5></a>
+                    <a href="#"><small>Senior UX designer</small></a>
+                  </div>
+                </li>
+                <li class="visitor-div">
+                  <a href="#"><img src="./images/person-4.png" alt="" /></a>
+                  <div class="visitor-info">
+                    <a href="#"><h5>Kyle Fisher</h5></a>
+                    <a href="#"><small>Product designer at Com...</small></a>
+                  </div>
+                </li>
+                <li class="visitor-div">
+                  <a href="#"><img src="./images/person-5.png" alt="" /></a>
+                  <div class="visitor-info">
+                    <a href="#"><h5>Audrey Alexander</h5></a>
+                    <a href="#"><small>Team lead at Google</small></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
-            <div class="Courses-div">          
-              <img src="images/Courses.png" />  
-            </div> 
-        </div> 
+          <section class="course-main-div">
+            <div class="course-container">
+              <h3>YOU MAY LIKE THESE COURSES</h3>
+              <ul class="course-list">
+                <li class="course-div">
+                  <a href="#"><img src="./images/course-1.jpg" /></a>
+                  <div class="course-info-div">
+                    <a href="#"><h5>UX Foundations: Prototyping</h5></a>
+                    <a href="#"><span>27,959 viewers</span></a>
+                  </div>
+                </li>
+                <li class="course-div">
+                  <a href="#"><img src="./images/course-2.jpg" /></a>
+                  <div class="course-info-div">
+                    <a href="#"><h5>Designing with Adobe XD and pro</h5></a>
+                    <a href="#"><span>9,122 viewers</span></a>
+                  </div>
+                </li>
+                <li class="course-div">
+                  <img src="./images/course-3.jpg" />
+                  <div class="course-info-div">
+                    <a href="#"><h5>UX Foundations: Styles and GUIs</h5></a>
+                    <a href="#"><span>13,858 viewers</span></a>
+                  </div>
+                </li>
+              </ul>
+              <button class="show-more">SEE ALL RECOMENDATIONS</button>
+            </div>
+          </section>
+        </div>
       </aside>
     </div>
+    <footer>
+      <div class="footer-container">
+        <div>
+          <a href="#"><img src="images/linkedin-footer.png" /></a>
+        </div>
+        <div class="footer-menu-div">
+          <h5>Navigation</h5>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Advertising</a>
+            </li>
+            <li>
+              <a href="#">Small Business</a>
+            </li>
+            <li>
+              <a href="#">Talent Solutions</a>
+            </li>
+            <li>
+              <a href="#">Marketing Solutions</a>
+            </li>
+            <li>
+              <a href="#">Sales Solutions</a>
+            </li>
+            <li>
+              <a href="#">Safery Center</a>
+            </li>
+            <li>
+              <a href="#">Community Guidelines</a>
+            </li>
+            <li>
+              <a href="#">Privacy & Terms</a>
+            </li>
+            <li>
+              <a href="#">Mobile App</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-buttons-div">
+          <h5>Fast Acess</h5>
+          <button class="footer-question-button">
+            QUESTIONS?<i
+              class="fa-regular fa-circle-question question-icon"
+            ></i>
+          </button>
+          <button class="footer-settings-button">
+            SETTINGS<i class="fa-solid fa-gear gear-icon"></i>
+          </button>
+        </div>
+        <div class="footer-language-div">
+          <h5>Language</h5>
+          <form>
+            <div class="language-select-div">
+              <select class="language-select" name="language" id="language">
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
+
+<!-- <div class="footer-menu-div">
+  <h5>Navigation</h5>
+  <ul>
+    <li>
+      About
+    </li>
+    <li>
+      Careers
+    </li>
+    <li>
+      Advertising
+    </li>
+    <li>
+      Small Business
+    </li>
+    <li>
+      Talent Solutions
+    </li>
+    <li>
+      Marketing Solutions
+    </li>
+    <li>
+      Sales Solutions
+    </li>
+    <li>
+      Safery Center
+    </li>
+    <li>
+      Community Guidelines
+    </li>
+    <li>
+      Privacy & Terms
+    </li>
+    <li>
+      Mobile App
+    </li>
+  </ul>
+</div> -->

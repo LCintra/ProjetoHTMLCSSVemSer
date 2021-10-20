@@ -174,9 +174,12 @@ aside{
 
 .person-top-div{
     height:50%;
+    width: inherit;
     background-image:url(./images/person-background.jpg);
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .person-bottom-div{
@@ -190,10 +193,10 @@ aside{
     display: flex;
     justify-content: space-between;
     padding-top:20px;
-    width:90%
+    width:90%;
 }
 
-button:hover:not(.show-more) {
+button:hover:not(.show-more, .visitors-button, .dashboard-button) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
   }
 
@@ -323,7 +326,7 @@ button:hover:not(.show-more) {
 
 /* About Section */
 
-.person-tabs-profile-div > p {
+.person-tabs-profile-div > a {
     
     font-size: 12px;
     line-height: 11px;
@@ -337,13 +340,12 @@ button:hover:not(.show-more) {
     
 }
 
-.person-tabs-main-div{
-    margin-bottom: 30px;   
+.person-tabs-main-div{  
     display: flex;
     border-bottom: #e5e8eb 1px solid;
 }
 
-.person-tabs-main-div p{
+.person-tabs-main-div a{
     font-weight: 500;
 }
 
@@ -372,7 +374,7 @@ button:hover:not(.show-more) {
     border-top-right-radius:3px;
 }
 
-.person-tabs-activity-articles-div > p{
+.person-tabs-activity-articles-div > a{
     
     font-size: 12px;
     line-height: 11px;
@@ -486,6 +488,10 @@ button:hover:not(.show-more) {
     font-size:12px;
     font-weight:500;
     padding-bottom:30px;
+}
+
+.show-more:hover{
+    text-decoration:underline;
 }
 
 /* Skills */
@@ -700,10 +706,14 @@ button:hover:not(.show-more) {
 }
 
 .dashboard-title-div button{
-    color: #333536;
+    color: #0275B1;
     font-size: 12px;
-    text-decoration: underline;
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dashboard-title-div button:hover{
+    text-decoration: underline;
 }
 
 .dashboard-info-div{
@@ -721,6 +731,8 @@ button:hover:not(.show-more) {
   color: #0275B1;
   line-height: 50px;
   font-weight: bold;
+  padding-bottom:5px;
+  display: block;
 }
 
 .dashboard-info-div p{
@@ -748,15 +760,22 @@ button:hover:not(.show-more) {
 .visitors-list{
     display: flex;
     flex-direction: column;
+    padding-top:20px;
 }
 
 .visitor-div{
     display: flex;
+    padding-bottom:15px;
+}
+
+.visitor-div:last-child{
+    padding-bottom:30px;
 }
 
 .visitor-info{
     display: flex;
     flex-direction: column;
+    padding-top:15px;
 }
 
 .visitor-info h5{
@@ -765,6 +784,7 @@ button:hover:not(.show-more) {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 
 .visitor-info small{
     color: #181818;
@@ -780,3 +800,160 @@ button:hover:not(.show-more) {
 .Courses-div{
     border-radius: 4px;
 }
+
+.course-main-div{
+    width: 290px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.course-container{
+    max-width: 80%;
+}
+
+.course-container h3{
+    color:#181818;
+    font-size:12px;
+    font-weight: bold;
+    padding: 25px 0px 20px 0px;
+    border-bottom: 1px solid #F4F4F4
+}
+
+.course-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.course-div{
+    display: flex;
+    padding-top:20px;
+}
+
+.course-div:last-child{
+    padding-bottom:30px;
+}
+
+.course-div img{
+    padding-right:15px;
+}
+
+.course-div h5{
+    color:#181818;
+    font-size:14px;
+    font-weight: bold;
+    padding-bottom:5px;
+}
+
+.course-div span{
+    font-size:10px;
+    color:#181818
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+    background-color: #F7F9FB;
+    width: 100%;
+}
+
+.footer-container{
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:45px;
+}
+
+.footer-menu-div ul{
+    display: flex;
+    flex-direction: column;
+    max-height: 120px;
+    flex-wrap: wrap;
+}
+
+.footer-menu-div h5{
+    padding-bottom:30px;
+    font-weight: bold;
+    font-size:12px;
+    color:#181818
+}
+
+.footer-menu-div ul li{
+    margin-bottom:14px;
+    margin-right:45px;
+    color:#181818;
+    font-size:12px;
+}
+
+.footer-menu-div{
+    min-width: 400px;
+}
+
+.footer-buttons-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-question-button{
+    background-color: #0275B1;
+    border-radius:3px;
+    width: 170px;
+    text-align: left;
+    color:white;
+    padding: 7px 15px;
+    font-weight: 500;
+}
+
+.footer-settings-button{
+    margin-top:10px;
+    border: 1px solid #0275B1;
+    border-radius:3px;
+    width: 170px;
+    text-align: left;
+    padding: 7px 15px;
+    color:#0275B1;
+    font-weight: 500;
+}
+
+.question-icon{
+    padding-left:20px;
+}
+
+.gear-icon{
+    padding-left:38px;
+    color:#0275B1
+}
+
+.footer-buttons-div h5, .footer-language-div h5{
+    padding-bottom:20px;
+    font-weight: bold;
+    font-size:12px;
+    color:#181818
+}
+
+.language-select{
+    width: 270px;
+    padding: 10px 0px;
+    color:#181818;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Roboto;
+    border: solid 1px #F0F0F0;
+    padding-left:15px;
+}
+
+.angle-down-icon{
+    position: absolute;
+    right:20px;
+    top:10px;
+}
+
+.language-select-div{
+    position: relative;
+}
+
+.language-select {
+    background: #fff url('./images/bottom-arrow.svg') 95.5% 50% no-repeat;
+  }
