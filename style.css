@@ -663,7 +663,6 @@ button:hover:not(.show-more) {
     display: flex;
     flex-direction: column;
     width: 290px;
-    height: 1165px;
     justify-content: space-between;
 }
 
@@ -671,10 +670,110 @@ button:hover:not(.show-more) {
 .dashboard-div{  
     border-radius: 4px;
 }
+.dashboard-main-div{
+    background-color: white;
+    margin-bottom: 20px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-title-div{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: #F4F4F4 solid 1px;
+}
+
+.dashboard-title-div h3{
+    color: #181818;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dashboard-title-div button{
+    color: #333536;
+    font-size: 12px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.dashboard-info-div{
+    padding-top: 20px;
+
+}
+
+.dashboard-info-div:last-child{
+    padding-bottom: 30px;
+
+}
+
+.dashboard-info-div span{
+  font-size: 52px;
+  color: #0275B1;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.dashboard-info-div p{
+    color: #181818;
+    font-size: 14px;
+
+}
 
 /* Visitors */
 .Visitors-div{
     border-radius: 4px;
+}
+
+.visitors-main-div{
+    width: 290px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.visitors-container{
+    width: 80%;
+}
+
+.visitors-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor-div{
+    display: flex;
+}
+
+.visitor-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor-info h5{
+    color: #181818;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.visitor-info small{
+    color: #181818;
+    font-size: 10px;
+
+}
+
+.visitor-div img{
+  margin-right: 15px;
 }
 
 /* Courses */
