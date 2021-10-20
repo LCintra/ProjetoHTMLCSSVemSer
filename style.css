@@ -167,6 +167,8 @@ aside{
 
 .person-info-main-div{
     height:360px;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .person-top-div{
@@ -405,6 +407,7 @@ aside{
     background-color: white;
     display: flex;
     justify-content: center;
+    border-radius: 4px;
 }
 
 .projects-container{
