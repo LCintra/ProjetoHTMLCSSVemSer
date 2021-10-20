@@ -135,11 +135,94 @@ header .other-div{
 .main-div{
     display: flex;
     padding: 40px 130px;
+    justify-content: space-around;
 }
 
 main{
     margin-right:40px;
     width: 70%;
+}
+
+.person-tabs-box-main-div{
+    padding-top: 3%;
+}
+
+.person-tabs-main-div{
+    height: 80px;    
+    display: flex;    
+}
+
+.person-tabs-profile-div{
+    width: 240px;
+    height: 50px;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px 4px 0px 0px;    
+}
+
+.person-tabs-profile-div > p {
+    font-family: Gotham Pro;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.person-tabs-activity-articles-div{
+    width: 240px;
+    height: 40px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+}
+
+.person-tabs-activity-articles-div > p{
+    font-family: Gotham Pro;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #181818;
+    padding-top: 20px;
+}
+
+.person-about-main-div{  
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.person-abou-title{
+    font-family: Gotham Pro;
+    font-size: 18px;
+    line-height: 17px;
+    color: #181818; 
+    font-weight: bold;   
+}
+
+.person-about-box-main-div{
+    padding-left: 6%;
+    padding-top: 4%;
+}
+
+.person-about-box-main-div > p {
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 150%;    
+    color: #181818;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.person-abou-footer{   
+    font-family: Gotham Pro;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0275B1;
 }
 
 aside{
@@ -293,4 +376,28 @@ aside{
     font-weight: bold;
     font-size:12px;
     border-radius:5px;
+}
+
+/* Sidebar */
+.Sidebar-div{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 1165px;
+    justify-content: space-between;
+}
+
+/* Dashboard */
+.dashboard-div{  
+    border-radius: 4px;
+}
+
+/* Visitors */
+.Visitors-div{
+    border-radius: 4px;
+}
+
+/* Courses */
+.Courses-div{
+    border-radius: 4px;
 }
