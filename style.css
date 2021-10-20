@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Body background */
 
@@ -191,6 +192,10 @@ aside{
     padding-top:20px;
     width:90%
 }
+
+button:hover:not(.show-more) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+  }
 
 .upload-button{
     background-color: #fff;
@@ -463,11 +468,180 @@ aside{
 
 }
 
-.projects-show-all{
+.show-more{
     color:#0275B1;
     font-size:12px;
     font-weight: bold;
     padding-bottom:30px;
+}
+
+/* Skills */
+
+.skills-main-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.skills-container{
+    width:90%
+}
+
+.skills-container h3 {
+    color:#181818;
+    font-size:18px;
+    font-weight: bold;
+    padding: 30px 0px 24px 0px
+}
+
+.skills-retangles-main-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:25px;
+}
+
+.skills-retangle{
+    width: calc(31% - 40px);
+    border:#F4F4F4 solid 1px;
+    border-radius:4px;
+    padding: 14px 20px
+}
+
+.skills-retangle img{
+    padding-top:5px;
+}
+
+.skills-retangle-text-div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.skills-retangle-text-div h5{
+    color:#181818;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.skills-retangle-text-div small{
+    color:#0275B1;
+    font-size:14px;
+    font-weight: bold;
+}
+
+/* Experience */
+
+.experience-main-div{
+    background-color: white;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-container{
+    width: 90%;
+}
+
+.experience, .education{
+    display: flex;
+}
+
+.experience-info, .education-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-info div, .education-info div{
+    display: flex;
+}
+
+.experience img, .education img{
+    padding-right:15px;
+}
+
+.experience-main-div h3{
+    color:#181818;
+    font-size:18px;
+    font-weight: bold;
+    padding:30px 0px 25px 0px;
+}
+
+.experience-info h5, .education-info h5{
+    color:#181818;
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.experience-row-2 p, .education-row-2 p{
+    font-size:12px; /* 10, como estava no figma, pareceu muito pequeno na fonte roboto*/
+    font-weight: 500;
+    color:#181818;
+    margin-right:10px;
+}
+
+.experience-row-2 span, .education-row-2 span{
+    font-size:12px;  /* 10, como estava no figma, pareceu muito pequeno na fonte roboto*/
+    color:#181818
+}
+
+.experience-row-2, .education-row-2{
+    padding-bottom:10px;
+}
+
+.experience-row-3 p, .education-row-3 p{
+    color:#181818;
+    font-size:12px; /* 10, como estava no figma, pareceu muito pequeno na fonte roboto*/
+    margin-right:10px;
+}
+
+.experience-row-3 span, .education-row-3 span{
+    color:#0275B1;
+    font-size:12px; /* 10, como estava no figma, pareceu muito pequeno na fonte roboto*/
+    font-weight: bold;
+}
+
+.experience-row-3, .education-row-3{
+    margin-bottom:10px;
+}
+
+.experience-border{
+    padding-bottom:25px;
+    border-bottom: 1px #F4F4F4 solid
+}
+
+.experience-2{
+    margin:20px 0 31px 0;
+}
+
+.experience-description, .education-description{
+    color:#181818;
+    font-size:12px;
+}
+
+/* Education */
+
+.education-main-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.education-container{
+    width: 90%;
+}
+
+.education-container h3{
+    color:#181818;
+    font-size:18px;
+    font-weight: bold;
+    padding:30px 0px 25px 0px;
+}
+
+.education {
+    padding-bottom:25px;
 }
 
 /* Sidebar */
