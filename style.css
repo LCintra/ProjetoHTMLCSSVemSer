@@ -36,6 +36,10 @@ ul {
     border-right: solid #F4F4F4 1px
 }
 
+header nav{
+    height: 100%;
+}
+
 header ul {
     height: 100%;
     border-right: solid #F4F4F4 1px;
@@ -64,10 +68,17 @@ header ul {
 
 header li{
     width:90px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.nav-notification{
+    position: absolute;
+    top:7px;
+    right:30px;
 }
 
 header li img{
