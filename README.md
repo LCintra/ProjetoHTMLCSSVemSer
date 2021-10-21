@@ -1,1 +1,1 @@
-Repositório referente ao projeto final do módulo de HTML e CSS referente ao programa Vem Ser 2021
+Repositório referente ao projeto final do módulo de HTML e CSS do programa Vem Ser 2021 da empresa DBC Company
