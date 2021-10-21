@@ -164,6 +164,109 @@ aside{
     width:30%;
 }
 
+/* Sidebar CSS */
+.sidebar-div{
+    height: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sidebar-profile-div {
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.sidebar-profile-top-div {
+    height: 120px;
+    background-image: url(./images/sidebar-profile-background.png);
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-profile-info-div {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-right: 10%;
+    align-items: center;   
+}
+
+.sidebar-profile-avatar-div {
+    background: url(./images/sidebar-profile-avatar.png);
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    left: calc(50% - 209px/2 + 445px);
+    top: 190px;    
+}
+
+.sidebar-profile-info-title-div{
+    width: 112px;
+    height: 13px;
+    left: calc(50% - 112px/2 + 445px);
+    top: 306px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 13px;
+    color: #181818;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.sidebar-profile-info-content-div{
+    font-family: Gotham Pro;
+    font-size: 10px;
+    line-height: 150%;    
+    text-align: center;
+    color: #181818;
+}
+
+.sidebar-newarticle-div { 
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 4px;   
+    text-align: center;
+    top: 50%;   
+}
+
+.sidebar-newarticle-button{
+    width: 230px;
+    height: 32px;   
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px;   
+    position: relative;
+    top: 28%;
+    font-family: Gotham Pro;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sidebar-mygroups-div   { 
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 4px;
+} 
+
+.sidebar-hashtags-div   {
+     height: 265px; 
+     background: #FFFFFF;
+     border-radius: 4px;
+}
+
+.sidebar-articles-div   {
+     height: 300px; 
+     background: #FFFFFF;
+     border-radius: 4px;
+}
 
 /* Footer */
 
